@@ -15,5 +15,9 @@
 5. Вставьте ссылку на видео YouTube.
 6. Нажмите кнопку "Транскрибировать" и дождитесь результатов.
 
+##Пример работы приложения
+![Иллюстрация к проекту](https://github.com/Kaktys36/QuiAudientes/blob/main/example.jpg)
+![Иллюстрация к проекту](https://github.com/Kaktys36/QuiAudientes/blob/main/example2.jpg)
+
 ## Автор
 [Kaktys36](https://github.com/Kaktys36), Telegram: @KiloLex
