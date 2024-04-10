@@ -72,7 +72,7 @@ class AudioTranscriber(QMainWindow):
         self.setCentralWidget(central_widget)
 
         # Фон
-        pixmap = QPixmap('C:\\Users\\Kaktys\\Desktop\\1234.jpg')
+        pixmap = QPixmap('C:\\Users\\YourName\\Desktop\\background.jpg') # Путь к фону программы
         self.palette = QPalette()
         self.palette.setBrush(QPalette.Background, QBrush(pixmap))
         self.setPalette(self.palette)
@@ -196,7 +196,7 @@ Telegram:
         self.update_progress_info("Загрузка аудио с YouTube...")
         try:
             video = YouTube(link)
-        except: 
+        except:
             self.update_progress_info("Ошибка при загрузке видео. Пожалуйста, убедитесь в корректности ссылки.")
             return None, None
 
